@@ -2,7 +2,7 @@ import React from 'react';
 import farr from './farr';
 
 type FibArrLen = string | number;
-interface FibArrProps {
+export interface FibArrProps {
   len: FibArrLen;
 }
 const FibArr: React.FC<FibArrProps> = (props: FibArrProps) => {

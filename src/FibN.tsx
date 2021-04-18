@@ -2,7 +2,7 @@ import React from 'react';
 import f from './f';
 
 type FibNNumber = number | string;
-interface FibNProps {
+export interface FibNProps {
   n: FibNNumber;
 }
 const FibN: React.FC<FibNProps> = (props: FibNProps) => {
